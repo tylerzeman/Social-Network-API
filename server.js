@@ -8,8 +8,6 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use('/api', api_routes);
 
-db.sync({ force: false }).then(() => {
-  app.listen(PORT, () => {
-    console.log(`Listening on port ${PORT}`);
-  });
+db.once('open', () => {
+  app.listen(PORT, () => console.log(`Listening on port ${PORT}`));
 });

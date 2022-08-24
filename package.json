@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongodb": "^4.9.0",
+    "mongoose": "^6.5.2"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "18-social-network-api",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tylerzeman/Social-Network-API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tylerzeman/Social-Network-API/issues"
+  },
+  "homepage": "https://github.com/tylerzeman/Social-Network-API#readme",
+  "description": ""
+}
