@@ -23,4 +23,10 @@ and run the command "npm run start", this will run the script to start the serve
 
 ## Screenshot
 
-![jate.png](assets/jate.png?raw=true "jate.png")
+Creating a user
+
+![createuser.png](assets/createuser.png?raw=true "createuser.png")
+
+getting all users
+
+![allusers.png](assets/allusers.png?raw=true "allusers.png")
